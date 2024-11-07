@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.navbar a {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+}
+.navbar a:hover{
+    color: #359D21;
+   font-weight: bold;
+   
+}
+/* .responsive_sec{
+    display: flex;
+   
+} */
+.responsive{
+display: flex;
+gap: 10px;
+border: 1px solid black;
+}
+.price_s1 i{
+    color: #359D21;
+    
+}
+.price_s1 p{
+    margin-top: 10px;
+display: flex;
+gap: 10px;
+align-items: center;
+text-align: center;
+}
+.price_s1 img{
+   margin-left: 110px;
+}
+.price_s1{
+    border: 2px solid rgb(243, 240, 240);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.price_s1 h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.price_s1 button{
+    margin-top: 20px;
+    
+   margin-left: 60px;
+}
+.project img{
+    width: 330px;
+    height: 280px;
+}
+.project div{
+    border: 2px solid rgb(243, 240, 240);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
